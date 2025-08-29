@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Botanical Curses and Poisons: The Shadow-Lives of Plants
+title: Botanical Curses and Poisons - The Shadow-Lives of Plants
 book: botanical-curses
 author: Fez Inkwright
 kindle: true
