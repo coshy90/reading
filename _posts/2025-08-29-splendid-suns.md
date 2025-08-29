@@ -6,6 +6,7 @@ author: Khaled Hosseini
 kindle: true
 date: 2025-08-29
 tags:
-  - fiction
+  - Fiction
   - Afghanistan
+  - Asia
 ---
