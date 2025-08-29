@@ -1,0 +1,24 @@
+# Gems
+gems:
+  - jekyll-paginate
+
+# Site settings
+# Add a value for `baseurl`, e.g. `/highlights` if you'd like to deploy from a subdirectory.
+title: Thoughts from my reading journey | coshy90
+url: "https://coshy90.github.io/books"
+baseurl:
+images: /assets/images/content
+
+# Blog settings
+paginate: 10
+paginate_path: "/all/page:num/"
+permalink: "/book/:title/"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+# Custom variable
+twitter: "@coshy_90"
