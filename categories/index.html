@@ -1,0 +1,16 @@
+{% for post in site.posts %}
+  {% assign c = post.categories | join: "," %}
+  {% if c != "" %}
+    {% capture categories %}{{categories}},{{c}}{% endcapture %}
+  {% endif %}
+{% endfor %}
+
+{% assign categories = categories | split: "," | uniq | sort: self %}
+{% assign catobjs = site.categories | sort: "tag" %}
+{% for category in catobjs %}
+  {% for cat in categories %}
+    {% if cat == category.tag %}
+      <h1><a href="{{category.permalink}}">{{category.title}}</a></h1>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
