@@ -1,7 +1,6 @@
 {% for post in site.posts %}
   {% for c in post.categories %}
     {% if page.tag == c %}
-      {% include components/excerpt_post.html %}
     {% endif %}
   {% endfor %}
 {% endfor %}
