@@ -22,13 +22,3 @@ sass:
 
 # Custom variable
 twitter: "@coshy_90"
-
-# Additions for Tag
-collections:
-  categories:
-    output: true
-defaults:
-  - scope:
-      path: "_categories"
-    values:
-      layout: "category"
