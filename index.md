@@ -1,9 +1,3 @@
----
-layout: home
-title: Browse by book
-nav: true
-order: 1
----
 
 <div id="tag-filters">
   <strong>Filter by tag:</strong>
@@ -26,3 +20,10 @@ order: 1
     {% endif %}
   {% endfor %}
 </ul>
+
+---
+layout: home
+title: Browse by book
+nav: true
+order: 1
+---
