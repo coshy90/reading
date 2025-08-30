@@ -1,27 +1,37 @@
-{% include head.html %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  {% include head.html %}
 {% include header.html %}
 
 {{ content }}
 
 {% include footer.html %}
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const buttons = document.querySelectorAll(".tag-btn");
-  const items = document.querySelectorAll(".page-item");
-  const clearBtn = document.getElementById("clear-filters");
+  <header>
+    <h1>{{ page.title }}</h1>
 
-  buttons.forEach(button => {
-    button.addEventListener("click", () => {
-      const tag = button.getAttribute("data-tag");
-      items.forEach(item => {
-        const tags = item.getAttribute("data-tags").split(",");
-        item.style.display = tags.includes(tag) ? "" : "none";
-      });
-    });
-  });
+    {% if page.tags %}
+      <p class="tags">
+        <strong>Tags:</strong>
+        {{ page.tags | join: ', ' }}
+      </p>
+    {% endif %}
+  </header>
 
-  clearBtn.addEventListener("click", () => {
-    items.forEach(item => item.style.display = "");
-  });
-});
-</script>
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.title }} {{ site.time | date: "%Y" }}</p>
+  </footer>
+</body>
+</html>
