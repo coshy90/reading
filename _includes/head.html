@@ -20,7 +20,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="{{ site.twitter }}" />
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %} {{ site.url }}" />
-  <meta name="twitter:description" content="Some thoughts about books" />
+  <meta name="twitter:description" content="I thought this was worth saving" />
   {% if page.book %}
   <meta name="twitter:image:src" content="{{ '/assets/images/covers/{{ page.book }}.jpg' | relative_url }}" />
   <meta name="twitter:image:alt" content="Cover of {{ page.title }}" />
@@ -30,7 +30,7 @@
 
   <meta name="og:url" content="{{ site.url }}{{site.baseurl}}{{ page.url }}">
   <meta name="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %} {{ site.url }}">
-  <meta name="og:description" content="Some thoughts about books">
+  <meta name="og:description" content="I thought this was worth saving">
   {% if page.book %}
     <meta name="og:image" content="{{ '{{site.baseurl}}/assets/images/covers/{{ page.book }}.jpg' | relative_url }}">
   {% else %}
