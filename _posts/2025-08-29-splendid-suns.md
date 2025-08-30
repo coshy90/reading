@@ -7,8 +7,8 @@ kindle: true
 date: 2025-08-29
 tags: ["fiction", "Afghanistan", "Asia"]
 categories:
-  - fiction
-  - afghanistan
-  - asia
+  - Fiction
+  - Afghanistan
+  - Asia
 
 ---
