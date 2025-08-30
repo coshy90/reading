@@ -5,8 +5,6 @@ book: splendid-suns
 author: Khaled Hosseini
 kindle: true
 date: 2025-08-29
-tags:
-  - Fiction
-  - Afghanistan
-  - Asia
+tags: ["fiction", "Afghanistan", "Asia"]
+
 ---
