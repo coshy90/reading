@@ -6,5 +6,9 @@ author: Hayley Campbell
 kindle: false
 date: 2025-08-30
 tags: ["non-fiction", "United Kingdom", "Europe"]
+categories:
+ - non-fiction
+ - united-kingdom
+ - europe
  
 ---
