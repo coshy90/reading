@@ -1,4 +1,10 @@
 ---
+layout: home
+title: Browse by book
+nav: true
+order: 1
+---
+
 <div id="tag-filters">
   <strong>Filter by tag:</strong>
   {% assign all_tags = site.pages | map: 'tags' | uniq | join: ',' | split: ',' | uniq %}
@@ -10,10 +16,6 @@
   <button id="clear-filters">Show All</button>
 </div>
 
-layout: home
-title: Browse by book
-nav: true
-order: 1
 <ul id="page-list">
   {% for page in site.pages %}
     {% if page.title and page.tags %}
@@ -24,5 +26,3 @@ order: 1
     {% endif %}
   {% endfor %}
 </ul>
-
----
