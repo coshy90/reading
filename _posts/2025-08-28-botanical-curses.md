@@ -6,5 +6,9 @@ author: Fez Inkwright
 kindle: false
 date: 2025-08-28
 tags: ["non-fiction", "United Kingdom", "Europe"]
+categories:
+  - non-fiction
+  - united-kingdom
+  - europe
 
 ---
