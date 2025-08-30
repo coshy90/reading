@@ -7,9 +7,11 @@ permalink: /categories/
 <h1>Categories</h1>
 <ul>
   {% for category in site.categories %}
+    {% assign name = category[0] %}
+    {% assign posts = category[1] %}
     <li>
-      <a href="{{ '/categories/' | append: category[0] | relative_url }}">
-        {{ category[0] }} ({{ category[1] | size }})
+      <a href="{{ '/categories/' | append: name | relative_url }}">
+        {{ name }} ({{ posts | size }})
       </a>
     </li>
   {% endfor %}
