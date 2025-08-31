@@ -5,8 +5,8 @@ gems:
 # Site settings
 # Add a value for `baseurl`, e.g. `/highlights` if you'd like to deploy from a subdirectory.
 title: Thoughts from my reading journey | coshy90
-url: "https://coshy90.github.io/books"
-baseurl:
+url: "https://coshy90.github.io/reading"
+baseurl: "/reading"
 images: /assets/images/content
 
 # Blog settings
