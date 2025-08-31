@@ -1,6 +1,7 @@
 ---
-tag: Afghanistan
+tag: afghanistan
+category: afghanistan
 layout: category
 title: "Afghanistan"
-permalink: "/categories/Afghanistan/"
+permalink: "/categories/afghanistan/"
 ---
