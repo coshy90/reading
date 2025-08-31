@@ -10,3 +10,4 @@ categories: ["fiction", "fantasy", "usa", "north america"]
 ---
 Read in 2025. 
 Origin: United States of America
+Fantasy
