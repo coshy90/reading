@@ -5,10 +5,6 @@ book: living-and-dead
 author: Hayley Campbell
 kindle: false
 date: 2025-08-30
-tags: ["Non-fiction", "United Kingdom", "Europe"]
-categories:
- - Non-fiction
- - United Kingdom
- - Europe
- 
+tags: ["non-fiction", "united kingdom", "europe"]
+categories: ["non-fiction", "united kingdom", "europe"]
 ---
